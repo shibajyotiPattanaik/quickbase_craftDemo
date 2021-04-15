@@ -1,0 +1,52 @@
+{
+    "elements": {
+        "api" : {
+            "xpath": "//*[contains(text(),'API')]"
+        },
+        "searchbar": {
+            "class": "DocSearch-Button-Placeholder"
+        },
+        "search_input": {
+            "id": "docsearch-input"
+        },
+        "search_result_0": {
+            "id": "docsearch-item-0"
+        },
+        "search_result_1": {
+            "id": "docsearch-item-1"
+        },
+        "search_result_2": {
+            "id": "docsearch-item-2"
+        },
+        "search_result_3": {
+            "id": "docsearch-item-3"
+        },
+        "search_result_4": {
+            "id": "docsearch-item-4"
+        },
+        "protocols": {
+            "xpath": "//*[contains(text(),'Protocols')]"
+        },
+        "protocols_list_0": {
+            "xpath": "//*[contains(text(),'WebDriver Protocol')]"
+        },
+        "protocols_list_1": {
+            "xpath": "//*[contains(text(),'Appium')]"
+        },
+        "protocols_list_2": {
+            "xpath": "//*[contains(text(),'Mobile JSON Wire Protocol')]"
+        },
+        "protocols_list_3": {
+            "xpath": "//*[contains(text(),'Chromium')]"
+        },
+        "protocols_list_4": {
+            "xpath": "//*[contains(text(),'Sauce Labs')]"
+        },
+        "protocols_list_5": {
+            "xpath": "//*[contains(text(),'Selenium Standalone')]"
+        },
+        "protocols_list_6": {
+            "css": "#__docusaurus > div.main-wrapper > div > div > div > div > ul > li:nth-child(3) > ul > li:nth-child(7)"
+        }
+    }
+}
