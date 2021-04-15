@@ -1,0 +1,23 @@
+{
+    "search_bar" : "Search",
+
+    "search_input" : "Click",
+
+    "search_result": {
+        "result_1" : "click",
+        "result_2" : "Usage\nclick",
+        "result_3" : "doubleClick",
+        "result_4" : "isClickable",
+        "result_5" : "waitForClickable"
+    },
+
+    "protocol_lists": {
+        "result_1" : "WebDriver Protocol",
+        "result_2" : "Appium",
+        "result_3" : "Mobile JSON Wire Protocol",
+        "result_4" : "Chromium",
+        "result_5" : "Sauce Labs",
+        "result_6" : "Selenium Standalone",
+        "result_7" : "JSON Wire Protocol"
+    }
+}
