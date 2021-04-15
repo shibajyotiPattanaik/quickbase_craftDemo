@@ -78,7 +78,7 @@ class HomePage extends BasePage {
     await input_bar.sendKeys(Keys);
   }
 
-  async elementDisplay(identifier) {
+  async checkElementDisplay(identifier) {
     let input_bar = await this.driver.findElement(By.className(identifier));
     await this.driver.wait(until.elementIsEnabled(input_bar));
     var value = await input_bar.isDisplayed();
