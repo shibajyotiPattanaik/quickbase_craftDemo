@@ -4,11 +4,16 @@ const webdriver = require("selenium-webdriver"),
 
 
 class BasePage{
+
+    /* @param webdriver
+       @constructor
+    */
     constructor(){
     this.driver = new webdriver.Builder().forBrowser("chrome").build();
     this.driver.manage().setTimeouts({implicit: (10000)});
     }   
 
+    // @param url
     async go_to_url(theURL){
         await this.driver.get(theURL);
     }
@@ -20,7 +25,6 @@ class BasePage{
     async refresh_driver(){
         await this.driver.navigate().refresh();
     }
-
 
 }
 
